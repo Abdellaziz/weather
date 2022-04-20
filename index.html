@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand d-flex justify-content-center align-items-center" href="#"><img src="imge/logo.png" class="me-3" alt=""><span><h5>weather</h5> <h6>tagline goes here</h6></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active me-5 mb-sm-3 mb-md-0 d-flex justify-content-center align-items-center"  aria-current="page" href="#">Home</a>
+              <a class="nav-link me-5 " href="#">news</a>
+              <a class="nav-link me-5" href="#">Live cameras</a>
+              <a class="nav-link me-5" href="#">Photos</a>
+              <a class="nav-link" href="#">Contact</a>
+
+
+            </div>
+          </div>
+        </div>
+      </nav>
+<div class="seather-back">
+    <div class="container">
+        <div class="row">
+            <input type="text" id="input-search" class="inp-1 my-3" placeholder="Find your loction">
+    <button class="btn btn-primary bt-1" id="find-btn">Find</button>
+        </div>
+       
+   <div class="container ">
+       <div class="row g-0" id="alldata">
+           <div class="col-md-4 all-item">
+            <div class="top-card d-flex justify-content-between align-items-center text-muted">
+                <h3 id="day"></h3>
+                <h3 id="month"></h3>
+            </div>
+            <h2 class="text-muted" id="country"></h2>
+            <div class="back-text d-flex justify-content-between align-items-baseline">
+                <div class="d-flex  justify-content-center  align-items-center">
+                    <h2 class="text-light" id="temp">  </h2>
+                    <span class="text-dark">c</span>
+                </div>
+               
+               
+                <div><img  alt="" id="photo"></div>
+            </div>
+            <h4 class="text-primary" id="Describe">Partly Cloud</h4>
+            <div class="d-flex justify-content-evenly align-items-center">
+              
+                <div class="d-flex align-items-center justify-content-start">
+                    <img src="imge/icon-umberella.png" alt="" class="mx-2"> 
+                    <span class="text-muted" id="extra"></span>
+                </div>
+                <div class="d-flex align-items-center justify-content-start">
+                    <img src="imge/icon-wind.png" alt="" class="mx-2">
+                     <span class="text-muted"  id="extra2"></span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-start">
+                        <img src="imge/icon-compass.png"  alt="" class="mx-2">
+                         <span class="text-muted" id="extra3"></span>
+                        </div>
+            
+            </div>
+           </div>
+           <div class="col-md-4 all-item item1">
+            <div class="top-card text-center text-muted ">
+                <h3 class="nextday"></h3>
+                
+            </div>
+  
+            <div class="back-text d-flex flex-column justify-content-center align-items-center">
+              
+         <img class="nextimg" alt="">
+            <h3 class="text-light cel"></h3>
+            <h6 class="text-muted cel2"></h6>
+            <h4 class="text-primary Describe2"></h4>
+            </div>
+           </div>
+           <div class="col-md-4 all-item">
+            <div class="top-card text-center text-muted">
+                <h3 class="nextday"></h3>
+                
+            </div>
+  
+            <div class="back-text d-flex flex-column justify-content-center align-items-center">
+              
+         <img class="nextimg" alt="">
+            <h3 class="text-light cel"></h3>
+            <h6 class="text-muted cel2"></h6>
+            <h4 class="text-primary Describe2"></h4>
+            </div>
+           </div>
+       </div>
+    
+   </div>
+
+
+    </div>
+
+</div>
+<div class="back">
+    <div class="container">
+        <div class="row">
+            <input type="text" id="input-search" class="inp-1 my-3 w-75" placeholder="Find your loction">
+   <button class="btn btn-primary bt-2 position-relative">subscribe</button>
+        </div>
+        <p class="text-muted">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
